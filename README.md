@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Natarajansri%20S&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20%26%20IoT%20Enthusiast&descSize=18&descAlignY=58" width="100%" alt="Header" />
+<img src="header.svg" width="100%" alt="Header" />
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -81,4 +81,5 @@
   </picture>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="Footer" />
+---
+<p align="center">Thanks for visiting! ⭐</p>
