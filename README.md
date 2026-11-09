@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0A66C2&height=220&section=header&text=Natarajansri%20S&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Software%20%26%20IoT%20Enthusiast&descSize=20&descAlignY=60&animation=fadeIn" width="100%" alt="Header" />
+<img src="./header.svg" width="100%" alt="Header" />
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -12,10 +12,6 @@
   <img src="https://img.shields.io/badge/Open%20to-Internships-00F7FF?style=for-the-badge&labelColor=0d1117" alt="Open to internships" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Natarajansri&label=Profile%20views&color=00b8d4&style=flat-square" alt="Profile views" />
-</p>
-
 ---
 
 ## 👋 About Me
@@ -23,7 +19,6 @@
 | | |
 |---|---|
 | 🎓 **Education** | Pre-final year student at Ramco Institute of Technology |
-| 🔭 **Building** | Portfolio Creator App |
 | 🌱 **Learning** | React, Node.js, Express.js, MongoDB |
 | 🎯 **Looking for** | Internship opportunities |
 | 📍 **Location** | Rajapalayam, Tamil Nadu |
@@ -85,10 +80,6 @@
   <img height="180" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Natarajansri&theme=tokyonight&hide_border=true" alt="Streak stats" />
-</p>
-
 <details>
 <summary>📈 More stats</summary>
 <br>
@@ -110,6 +101,6 @@
   </picture>
 </p>
 
-<p align="center">Thanks for visiting! ⭐</p>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:00F7FF&height=100&section=footer" width="100%" alt="Footer" />
+<p align="center">Thanks for visiting! ⭐</p>
