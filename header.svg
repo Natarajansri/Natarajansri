@@ -1,38 +1,24 @@
-<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f2027"/>
-      <stop offset="50%" stop-color="#203a43"/>
-      <stop offset="100%" stop-color="#2c5364"/>
-    </linearGradient>
-    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00f7ff"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#0A66C2"/>
+      <stop offset="100%" stop-color="#00F7FF"/>
     </linearGradient>
   </defs>
-
-  <rect width="900" height="200" rx="14" fill="url(#bg)"/>
-
-  <!-- floating circles -->
-  <circle cx="120" cy="60" r="40" fill="#00f7ff" opacity="0.12">
-    <animate attributeName="cy" values="60;90;60" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="780" cy="140" r="55" fill="#a78bfa" opacity="0.12">
-    <animate attributeName="cy" values="140;110;140" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="650" cy="40" r="25" fill="#00f7ff" opacity="0.10">
-    <animate attributeName="cx" values="650;700;650" dur="7s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- name -->
-  <text x="450" y="95" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="52" font-weight="bold" fill="url(#txt)">
+  <rect width="1200" height="240" fill="url(#bg)"/>
+  <path fill="#ffffff" fill-opacity="0.12" d="M-300 170 Q-150 130 0 170 T300 170 T600 170 T900 170 T1200 170 T1500 170 V240 H-300 Z">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="300 0" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#ffffff" fill-opacity="0.08" d="M-300 190 Q-150 150 0 190 T300 190 T600 190 T900 190 T1200 190 T1500 190 V240 H-300 Z">
+    <animateTransform attributeName="transform" type="translate" from="300 0" to="0 0" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <text x="600" y="108" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">
     Natarajansri S
-    <animate attributeName="opacity" from="0" to="1" dur="1.5s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
   </text>
-
-  <!-- subtitle -->
-  <text x="450" y="140" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="20" fill="#ffffff" opacity="0">
+  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#e6faff">
     Software &amp; IoT Enthusiast
-    <animate attributeName="opacity" from="0" to="0.9" begin="1s" dur="1.5s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="1.8s" fill="freeze"/>
   </text>
 </svg>
